@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_module.ebayapi_appId.0">
+        <source>Authentication (AppName/AppID)</source>
+        <target>Authentifizierung (AppName/AppID)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_appId.1">
+        <source>The Authentication. Must be created first in the backend.</source>
+        <target>Die Authentifizierung. Muss zuerst im Backend erzeugt werden.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_globalId.0">
+        <source>Global/Site ID</source>
+        <target>Global/Site ID</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_globalId.1">
+        <source>The Global/Site ID. Defines which ebay instance should be called.</source>
+        <target>Die Global/Site ID. Legt fest, welche ebay-Instanz angefragt wird.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_seller.0">
+        <source>Seller</source>
+        <target>Verkäufer</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_seller.1">
+        <source>The name of the ebay seller.</source>
+        <target>Der Name des ebay Verkäufers.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_itemsPerPage.0">
+        <source>Items per page</source>
+        <target>Elemente pro Seite</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_itemsPerPage.1">
+        <source>The number of items per page. Between 1 and 100.</source>
+        <target>Die Anzahl an Elementen pro Seite. Zwischen 1 und 100.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_sortOrder.0">
+        <source>Sort order</source>
+        <target>Sortierung</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_sortOrder.1">
+        <source>The sort order of the found items.</source>
+        <target>Die Sortierung der gefundenen Artikel</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_template.0">
+        <source>Seller-Items template</source>
+        <target>Verkäufer-Artikeltemplate</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_template.1">
+        <source>Here you can select the seller-items template.</source>
+        <target>Hier können Sie das Verkäufer-Artikeltemplate auswählen.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.BidCountFewest">
+        <source>Number of bids (ascending)</source>
+        <target>Anzahl der Gebote (aufsteigend)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.BidCountMost">
+        <source>Number of bids (descending)</source>
+        <target>Anzahl der Gebote (absteigend)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.CurrentPriceHighest">
+        <source>Current highest price first</source>
+        <target>Aktuell höchster Preis zuerst</target>
+      </trans-unit>
+      <trans-unit id="tl_module.EndTimeSoonest">
+        <source>Soonest end time first</source>
+        <target>Frühster Endzeitpunkt zuerst</target>
+      </trans-unit>
+      <trans-unit id="tl_module.PricePlusShippingHighest">
+        <source>Highest price first (shipping included)</source>
+        <target>Höchster Preis zuerst (inkl. Versand)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.PricePlusShippingLowest">
+        <source>Lowest price first (shipping included)</source>
+        <target>Niedrigster Preis zuerst (inkl. Versand)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.StartTimeNewest">
+        <source>Newest items first</source>
+        <target>Neusten Artikel zuerst</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,22 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+
+  <?php if (!empty($this->error)): ?>
+    <div>
+      <p><?= $this->error; ?></p>
+    </div>
+  <?php else: ?>
+
+    <div class="ebayapi-list">
+      <?php if (empty($this->items)): ?>
+        <p><?= $this->empty ?></p>
+      <?php else: ?>
+        <?= implode('', $this->items) ?>
+        <?= $this->pagination ?>
+      <?php endif; ?>
+    </div>
+
+  <?php endif; ?>
+
+<?php $this->endblock(); ?>

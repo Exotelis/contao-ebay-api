@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_module.php" source-language="en">
+    <body>
+      <trans-unit id="tl_module.ebayapi_appId.0">
+        <source>Authentication (AppName/AppID)</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_appId.1">
+        <source>The Authentication. Must be created first in the backend.</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_globalId.0">
+        <source>Global/Site ID</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_globalId.1">
+        <source>The Global/Site ID. Defines which ebay instance should be called.</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_seller.0">
+        <source>Seller</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_seller.1">
+        <source>The name of the ebay seller.</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_itemsPerPage.0">
+        <source>Items per page</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_itemsPerPage.1">
+        <source>The number of items per page. Between 1 and 100.</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_sortOrder.0">
+        <source>Sort order</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_sortOrder.1">
+        <source>The sort order of the found items.</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_template.0">
+        <source>Seller-Items template</source>
+      </trans-unit>
+      <trans-unit id="tl_module.ebayapi_template.1">
+        <source>Here you can select the seller-items template.</source>
+      </trans-unit>
+      <trans-unit id="tl_module.BidCountFewest">
+        <source>Number of bids (ascending)</source>
+      </trans-unit>
+      <trans-unit id="tl_module.BidCountMost">
+        <source>Number of bids (descending)</source>
+      </trans-unit>
+      <trans-unit id="tl_module.CurrentPriceHighest">
+        <source>Current highest price first</source>
+      </trans-unit>
+      <trans-unit id="tl_module.EndTimeSoonest">
+        <source>Soonest end time first</source>
+      </trans-unit>
+      <trans-unit id="tl_module.PricePlusShippingHighest">
+        <source>Highest price first (shipping included)</source>
+      </trans-unit>
+      <trans-unit id="tl_module.PricePlusShippingLowest">
+        <source>Lowest price first (shipping included)</source>
+      </trans-unit>
+      <trans-unit id="tl_module.StartTimeNewest">
+        <source>Newest items first</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

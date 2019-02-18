@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/default.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="ERR.ebayApi.reportIssue">
+        <source>Please report the issue here https://github.com/Exotelis/contao-ebay-api/issues</source>
+        <target>Bitte berichten Sie von dem Fehler unter der URL https://github.com/Exotelis/contao-ebay-api/issues</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.mustBeArr">
+        <source>must be an array.</source>
+        <target>muss ein Array sein.</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.mustBeArr">
+        <source>must be an array.</source>
+        <target>muss ein Array sein.</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.convert2xml">
+        <source>Array couldn't be converted to XML.</source>
+        <target>Array konnte nicht in XML konvertiert werden.</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.hasErr">
+        <source>Call method callApi before method hasError.</source>
+        <target>Rufen Sie die Methode callApi vor der Methode hasError auf.</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.noResults">
+        <source>No result found. Call Method callApi first.</source>
+        <target>Keine Ergebnisse gefunden. Rufen Sie die Methode callApi zuerst auf.</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.more1root">
+        <source>requestBody has more than 1 root.</source>
+        <target>requestBody hat mehr als ein Wurzelelement.</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.headerBodyNotSet">
+        <source>Request header or body not set yet. Call methods setRequestHeader and setRequestBody first.</source>
+        <target>Der Request-Header oder -Body wurden nicht gesetzt. Rufen Sie die Methoden setRequestHeader und setRequestBody zuerst auf.</target>
+      </trans-unit>
+      <trans-unit id="ERR.ebayApi.Invalid seller name">
+        <source>sdsf</source>
+        <target>fffff</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.emptyList">
+        <source>No items found</source>
+        <target>Keine Artikel gefunden</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.Calculated">
+        <source>shipping costs</source>
+        <target>Versandkosten</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.CalculatedDomesticFlatInternational">
+        <source>shipping costs</source>
+        <target>Versandkosten</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.Flat">
+        <source>shipping costs</source>
+        <target>Versandkosten</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.FlatDomesticCalculatedInternational">
+        <source>shipping costs</source>
+        <target>Versandkosten</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.Free">
+        <source>free shipping</source>
+        <target>kostenloser Versand</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.FreePickup">
+        <source>free pickup</source>
+        <target>kostenlose Abholung</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.Freight">
+        <source>shipping costs</source>
+        <target>Versandkosten</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.FreightFlat">
+        <source>shipping costs</source>
+        <target>Versandkosten</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shippingType.NotSpecified">
+        <source>shipping not specified</source>
+        <target>Versandart nicht angegeben</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.Americas">
+        <source>North, South, or Latin America</source>
+        <target>Nord, Süd oder Lateinamerika</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.Asia">
+        <source>Countries in continental Asia</source>
+        <target>Länder in kontinental Asien</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.AT">
+        <source>Austria</source>
+        <target>Österreich</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.AU">
+        <source>Australia</source>
+        <target>Australien</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.BE">
+        <source>Belgium</source>
+        <target>Belgien</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.CA">
+        <source>Canada</source>
+        <target>Kanada</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.CH">
+        <source>Switzerland</source>
+        <target>Schweiz</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.CN">
+        <source>China</source>
+        <target>China</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.DE">
+        <source>Germany</source>
+        <target>Detuschland</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.ES">
+        <source>Spain</source>
+        <target>Spanien</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.Europe">
+        <source>Europe</source>
+        <target>Europa</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.EuropeanUnion">
+        <source>EU member countries</source>
+        <target>EU Mitgliederländer</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.FR">
+        <source>France</source>
+        <target>Frankreich</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.GB">
+        <source>United Kingdom</source>
+        <target>Großbritannien</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.HK">
+        <source>Hong Kong</source>
+        <target>Hong Kong</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.IE">
+        <source>Ireland</source>
+        <target>Irland</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.IN">
+        <source>India</source>
+        <target>Indien</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.IT">
+        <source>Italy</source>
+        <target>Italien</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.JP">
+        <source>Japan</source>
+        <target>Japan</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.MX">
+        <source>Mexico</source>
+        <target>Mexiko</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.NL">
+        <source>Netherlands</source>
+        <target>Niederlande</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.None">
+        <source>No shipping. Buyer must pick up the item.</source>
+        <target>Kein Versand. Käufer muss Artikel abholen.</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.NZ">
+        <source>New Zealand</source>
+        <target>Neuseeland</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.TW">
+        <source>Taiwan</source>
+        <target>Taiwan</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.US">
+        <source>United States of America</source>
+        <target>Vereinigte Staaten von Amerika</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.shipToLocations.Worldwide">
+        <source>Worldwide</source>
+        <target>Weltweit</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.listingType.AdFormat">
+        <source>Advertisement</source>
+        <target>Anzeige</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.listingType.Auction">
+        <source>Auction</source>
+        <target>Auktion</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.listingType.AuctionWithBIN">
+        <source>Auction or Buy It Now</source>
+        <target>Auktion oder Sofortkauf</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.listingType.Classified">
+        <source>Classified</source>
+        <target>Klassifiziert</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.listingType.FixedPrice">
+        <source>Buy It Now Only</source>
+        <target>Sofortkauf</target>
+      </trans-unit>
+      <trans-unit id="MSC.ebayApi.listingType.StoreInventory">
+        <source>Buy It Now Only</source>
+        <target>Sofortkauf</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,44 @@
+{
+  "name": "exotelis/contao-ebay-api",
+  "description": "Frontend modules that call the ebay api",
+  "type": "contao-bundle",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Sebastian Krah",
+      "email": "exotelis@mailbox.org",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Exotelis/contao-ebay-api/issues",
+    "source": "https://github.com/Exotelis/contao-ebay-api"
+  },
+  "require": {
+    "php": "^7.0",
+    "contao/core-bundle": "^4.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Exotelis\\EbayApiBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/",
+      "src/Resources/contao/templates/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "Exotelis\\EbayApiBundle\\ContaoManager\\Plugin"
+  }
+}
