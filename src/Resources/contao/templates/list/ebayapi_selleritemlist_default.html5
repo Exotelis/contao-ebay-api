@@ -1,6 +1,6 @@
 <div class="ebayapi-item">
   <img src="<?php if(!is_null($this->largeImage)): echo $this->largeImage; else: echo $this->placeholder; endif; ?>" alt="<?= $this->title ?>">
-  <a href="<?= $this->viewItemURL ?>" target="_blank" title="<?= $this->title ?>"><?= $this->title ?></a>
+  <a href="<?= $this->viewItemURL ?>" target="_blank" rel="noopener" title="<?= $this->title ?>"><?= $this->title ?></a>
   <p class="price"><?= $this->convertedCurrentPrice ?>€ (<?= $this->condition ?>)</p>
   <p class="end-time"><?= $this->endTime ?></p>
   <p class="shipping"><?= $this->shipToLocations ?> <?= $this->shippingType ?> <?= $this->shippingCosts ?>€</p>
