@@ -26,6 +26,9 @@
       <trans-unit id="ERR.ebayApi.headerBodyNotSet">
         <source>Request header or body not set yet. Call methods setRequestHeader and setRequestBody first.</source>
       </trans-unit>
+      <trans-unit id="ERR.ebayApi.Invalid seller name">
+        <source>The entered seller hasn't been found.</source>
+      </trans-unit>
       <trans-unit id="MSC.ebayApi.emptyList">
         <source>No items found</source>
       </trans-unit>
